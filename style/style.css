@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url('../fonts/Epilogue-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/BebasKai.otf');
+}
+
+:root {
+    --cor01: #4a241a;
+    --cor02: #d1c5b5;
+    --cor03: #fffefd;
+    --cor04: #381531;
+    --cor05: #4c2d4a;
+    --cor06: #080808;
+    --text: 'Epilogue', Arial, Helvetica, sans-serif;
+    --title: 'Bebas', Arial, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--text);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: var(--cor02);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 5%;
+    
+}
+
+#logo {
+    color: var(--cor04);
+    font-family: var(--title);
+    font-weight: normal;
+}
+
+#nav_icon {
+    cursor: pointer;
+    color: red;
+    width: 40px;
+}
+
+#nav-menu {
+    display: none;
+}
+
+#hero_description {
+    font-size: 1.2em;
+}
+
+
+/* * MAIN */
+
+#hero {
+    background-color: var(--cor02);
+    padding: 50px 5%;
+}
+
+#hero_title {
+    font-size: 1.2em
+}
+
+
+
