@@ -33,6 +33,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 body {
     background-color: var(--cor03);
 }
@@ -115,6 +119,8 @@ footer {
     flex-direction: column;
     color: var(--cor03);
     background-color: var(--cor06);
+
+    padding: 0px 20px;
 }
 
 .logo_footer {
@@ -126,12 +132,20 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 2em;
+
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-logo-description {
     font-style: italic;
     font-size: 0.5em;
 }
+
+
+/* & FOOTER DO SITE - MENU */
+
+
 
 
 #footer-coypright {
