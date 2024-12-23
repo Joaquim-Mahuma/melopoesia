@@ -40,7 +40,7 @@ li {
 body, html {
     background-color: var(--cor03);
 
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -113,6 +113,54 @@ header {
 #hero_description {
     text-align: center;
 }
+
+
+
+
+
+/* & POEMAS ATUAIS DO SITE */
+
+
+#current_poem_container {
+    padding: 50px 5%;
+}
+
+#current_poem_title {
+    color: var(--cor01);
+
+    margin-bottom: 20px;
+}
+
+.current-poem-card {
+    display: flex;
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px ;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.483);
+}
+
+.current-poem-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+.current-poem-card-title {
+    color: var(--cor05);
+}
+
+.current-poem-description {
+    font-style: italic;
+}
+
+.current-poem-img {
+    display: block;
+    border-radius: 100px 10px 10px 0px;
+
+    width: 150px;
+}
+
 
 
 /* & FOOTER DO SITE */
