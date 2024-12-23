@@ -176,6 +176,13 @@ footer {
 
 /* & FOOTER DO SITE - REDES SOCIAIS */
 
+.footer-social-media-container {
+    border-bottom: 1px solid var(--cor03);
+
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
 .footer-social-media-list {
     display: flex;
     gap: 20px;
