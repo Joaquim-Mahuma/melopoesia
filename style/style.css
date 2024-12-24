@@ -185,6 +185,7 @@ main {
 }
 
 .artists {
+    display: flex;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -200,13 +201,19 @@ main {
 }
 
 .artists-slide {
-    display: inline-block;
-    animation: slide 5s infinite linear;
+    display: flex;
+    animation: slide 30s infinite linear;
+}
+
+.artist-name {
+    text-align: center;
 }
 
 .artists-slide img {
-    width: 100px;
-    height: 100px;
+    border-radius: 100%;
+
+    width: 200px;
+    height: 200px;
     margin: 0px 20px;
 }
 
