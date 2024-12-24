@@ -150,13 +150,18 @@ main {
     flex-direction: column;
     justify-content: space-between;
 
-    padding: 20px 0px 10px 20px;
+    padding: 10px 20px 10px;
 }
 
 .current-poem-card-title > a {
     font-family: var(--title);
     color: var(--cor05);
     font-size: 1.5em;
+}
+
+.current-poem-song {
+    color: gray;
+    font-size: 0.7em;
 }
 
 .current-poem-description > a {
