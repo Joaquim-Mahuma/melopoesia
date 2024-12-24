@@ -160,8 +160,16 @@ main {
 }
 
 .current-poem-song {
+    display: flex;
+    align-items: start;
+    gap: 2px;
     color: gray;
     font-size: 0.7em;
+}
+
+.current-poem-song img {
+    opacity: 40%;
+    width: 10px;
 }
 
 .current-poem-description > a {
