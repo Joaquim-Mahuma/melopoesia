@@ -81,6 +81,10 @@ header {
 }
 
 
+main {
+    margin: auto;
+}
+
 
 /* & HERO DO SITE */
 
@@ -113,8 +117,6 @@ header {
 #hero_description {
     text-align: center;
 }
-
-
 
 
 
@@ -166,6 +168,51 @@ header {
 
     width: 120px;
 }
+
+
+
+/* & ARTISTAS DO SITE */
+
+
+#artists_container {
+    padding: 50px 5%;
+}
+
+#artists_title {
+    color: var(--cor01);
+
+    margin-bottom: 20px;
+}
+
+.artists {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.artists-slide {
+    display: inline-block;
+    animation: slide 5s infinite linear;
+}
+
+.artists-slide img {
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px;
+}
+
+
+
+
 
 
 
