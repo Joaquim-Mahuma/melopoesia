@@ -192,6 +192,11 @@ footer {
     margin-bottom: 30px;
 }
 
+.footer-logo-title {
+    font-family: var(--title);
+    font-weight: normal;
+}
+
 .footer-logo-description {
     font-style: italic;
     font-size: 0.5em;
