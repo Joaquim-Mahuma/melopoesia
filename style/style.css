@@ -127,8 +127,9 @@ main {
     padding: 50px 5%;
 }
 
-#current_poem_title {
+.title {
     color: var(--cor01);
+    font-size: 1.2em;
 
     margin-bottom: 20px;
 }
@@ -201,12 +202,6 @@ main {
     padding: 50px 5%;
 }
 
-#artists_title {
-    color: var(--cor01);
-
-    margin-bottom: 20px;
-}
-
 .artists {    
     position: relative;
     display: flex;
@@ -242,6 +237,19 @@ main {
     margin: 0px 30px 10px;
 }
 
+
+
+
+/* & TEMAS DO SITE */
+
+
+#genre_container {
+    padding: 50px 5%;
+}
+
+.genre {
+    display: block;
+}
 
 
 
