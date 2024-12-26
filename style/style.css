@@ -242,13 +242,21 @@ main {
 
 /* & TEMAS DO SITE */
 
+#genre_container .title {
+    background-color: var(--cor01);
+    color: var(--cor03);
 
-#genre_container {
-    padding: 50px 5%;
+    margin-bottom: 0;
+    padding: 20px 5%;
+}
 
+#genre_container svg {
+    display: block;
 }
 
 #genre_subcontainer {
+    background-color: var(--cor01);
+    padding: 50px 5%;
     columns: 2;
     column-gap: 8px;
 }
@@ -295,16 +303,17 @@ main {
     position: absolute;
     bottom: 0;
     right: 0;
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 1.5em;
     color: var(--cor03);
-    background-color: var(--cor01);
+    background-color: var(--cor06);
     border-radius: 20px 0px 0px 0px;
 
-    padding: 10px 15px;
+    padding: 10px 15px 5px;
 }
 
-
+.svg-bottom {
+    transform: rotate(540deg);
+}
 
 
 
