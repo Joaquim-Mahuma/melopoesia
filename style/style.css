@@ -153,7 +153,7 @@ main {
     height: 120px;
     overflow: hidden;
 
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .current-poem-text-container {
@@ -165,7 +165,7 @@ main {
 }
 
 .current-poem-card-title > a {
-    font-family: var(--text);
+    font-family: var(--poem);
     color: var(--cor04);
     font-size: 1.5em;
 }
