@@ -153,7 +153,7 @@ main {
     height: 120px;
     overflow: hidden;
 
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .current-poem-text-container {
@@ -165,7 +165,8 @@ main {
 }
 
 .current-poem-card-title > a {
-    font-family: var(--poem);
+    font-family: var(--text);
+    font-weight: 500;
     color: var(--cor04);
     font-size: 1.5em;
 }
@@ -277,9 +278,15 @@ main {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    transition: 0.5s ease-out;
 
     width: 100%;
     margin-bottom: 10px;
+}
+
+.genre-card:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px var(--cor02);
 }
 
 
@@ -296,7 +303,6 @@ main {
 .genre-image:hover {
     filter: none;
     transform: scale(1.5);
-    
 }
 
 .genre {
@@ -317,7 +323,53 @@ main {
 
 .svg-bottom {
     transform: rotate(540deg);
+    margin-bottom: 50px;
 }
+
+
+
+/* & FOOTER DO SITE */
+
+#quote_container {
+    margin: auto;
+
+    margin-bottom: 40px;
+}
+
+#quote_subcontainer {
+    text-align: center;
+    padding: 10px 5%;
+}
+
+#quote em {
+    display: block;
+    font-family: var(--title);
+    font-size: 2em;
+    color: gray;
+
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+}
+
+#footer-quote {
+    background-color: var(--cor03);
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer-quote p {
+    color: var(--cor06);
+    font-weight: bold;
+    font-family: var(--title);
+    font-size: 1.2em;
+    background-color: var(--cor02);
+
+    width: 50%;
+    margin: auto;
+}
+
 
 
 
