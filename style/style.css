@@ -58,13 +58,16 @@ body, html {
 
 
 header {
-    background-color: var(--cor02);
+    background-color: var(--cor02)
+
+}
+
+#header_subcontainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     padding: 15px 5%;
-    
 }
 
 #logo {
@@ -85,6 +88,35 @@ header {
 #nav-menu {
     display: none;
 }
+
+#menu {
+    display: none;
+    background-color: var(--cor03);
+
+    padding: 15px 5%;
+}
+
+.menu-item {
+    border: 1px solid black;
+
+    margin-bottom: 5px;
+}
+
+.menu-link:hover {
+    background-color: var(--cor06);
+    color: var(--cor03);
+    transition: 0.1s linear;
+}
+
+.menu-link {
+    display: block;
+    color: var(--cor06);
+
+    padding: 10px;
+}
+
+
+/* & MAIN DO SITE */
 
 
 main {
